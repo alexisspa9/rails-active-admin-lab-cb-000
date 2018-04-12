@@ -5,7 +5,8 @@ ActiveAdmin.register Song do
 # permit_params :list, :of, :attributes, :on, :model
 #
 # or
-#
+permit_params :title, :artist_id
+
 # permit_params do
 #   permitted = [:permitted, :attributes]
 #   permitted << :other if params[:action] == 'create' && current_user.admin?
